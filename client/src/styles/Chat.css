@@ -1,0 +1,42 @@
+.chat {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  overflow-y: hidden;
+}
+
+.messages {
+  flex: 1;
+  overflow-y: auto;
+  padding: 10px;
+  border: 1px solid #42454a;
+  border-radius: 5px;
+  background-color: #2f3136;
+}
+
+form {
+  display: flex;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #42454a;
+  border-radius: 5px;
+  margin-right: 10px;
+  background-color: #40444b;
+  color: white;
+}
+
+button {
+  border: none;
+  border-radius: 5px;
+  background-color: #7289da;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #5b6eae;
+}

@@ -1,0 +1,50 @@
+.user-panel-container {
+  display: flex;
+  width: 221px;
+  align-items: center;
+  padding: 4px;
+  background-color: #2f3136;
+  color: white;
+  position: fixed;
+  bottom: 6px;
+}
+
+.user-panel-profile-pic {
+  width: 37px;
+  height: 37px;
+  border-radius: 50%;
+  margin-right: 10px;
+  margin-left: -6px;
+}
+
+.user-panel-details,
+.logo-and-status-placement {
+    display: flex;
+    flex-direction: column;
+    margin-left: -2px;
+}
+
+.user-panel-keremke-butonke-ayarke {
+  margin-left: 37px;
+}
+
+.user-panel-username {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.user-panel-status {
+  font-size: 12px;
+  color: #b9bbbe;
+}
+
+.user-panel-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.user-panel-icon {
+  width: 20px;
+  height: 20px;
+}

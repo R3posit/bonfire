@@ -1,0 +1,35 @@
+.App {
+  display: flex;
+  height: 100vh;
+  background-color: #36393f;
+}
+
+.channel-bar {
+  height: 100%;
+  width: 200px;
+  background-color: #202225;
+  border-right: 1px solid #202225;
+}
+
+.chat {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: #36393f;
+  color: white;
+  padding: 10px;
+  overflow-y: auto;
+}
+
+.server-icon {
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.active {
+  background-color: rgba(255, 255, 255, 0.2);
+}
